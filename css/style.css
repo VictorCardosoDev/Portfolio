@@ -20,15 +20,29 @@ main {
 }
 
 h1 {
-    color: #D91E63;
+    color: black;
     text-align: center;
     text-shadow: 1px 1px 2px #80113a6e;
 }
 
 h2 {
-    color: #A61B5B;
+    color: black;
 }
 
 p {
     text-align: justify;
+}
+
+ul {
+    display: inline-flex;
+}
+
+li {
+    list-style: none;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
 }
