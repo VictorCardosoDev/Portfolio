@@ -7,7 +7,7 @@
 }
 
 body {
-    background-image: linear-gradient(to bottom, #db0f5a, #BF1B68);
+    background-image: linear-gradient(to bottom, #db0f5a, #BF1B68, black 108%);
 }
 
 main {
@@ -19,7 +19,11 @@ main {
     margin: auto;
 }
 
-h1 {
+div {
+    
+}
+
+h1 {    
     color: black;
     text-align: center;
     text-shadow: 1px 1px 2px #80113a6e;
@@ -34,7 +38,7 @@ p {
 }
 
 ul {
-
+    
 }
 
 li {
@@ -45,4 +49,23 @@ li {
 a {
     text-decoration: none;
     color: black;
+}
+
+a.header:hover {
+    color: white;
+    text-decoration: underline;
+    /*font:normal normal 18px arial, helvetica, sans-serif;*/
+    font-size: 18px;
+}
+
+a > img {
+    padding: 5px;
+}
+
+img.contatos {
+    width: 30px;
+}
+
+img.contatos:hover {
+    width: 35px;
 }
