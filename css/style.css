@@ -48,14 +48,18 @@ li {
 
 a {
     text-decoration: none;
-    color: black;
+    color: #db0f5a;
 }
 
 a.header:hover {
-    color: white;
-    text-decoration: underline;
-    /*font:normal normal 18px arial, helvetica, sans-serif;*/
+    color: red;
+    /*font:normal normal 17px arial, helvetica, sans-serif;*/
     font-size: 18px;
+    font-weight: bold;
+}
+
+a.header:active {
+    color: black;
 }
 
 a > img {
