@@ -34,6 +34,10 @@ section#aboutme {
     padding: 10px;
 }
 
+#aboutme > h1 {
+    margin: 0px;
+}
+
 section#contact {
     background-color: pink;
 }
@@ -43,14 +47,19 @@ section#contact {
     color: white;
 }
 
+#contact > nav {
+    text-align: center;
+}
+
 h1 {    
-    color: black;
+    background-color: black;
+    font: bold 1.5em Arial, helvetica, sans-serif;
+    color: white;
     text-align: center;
     text-shadow: 1px 1px 2px #80113a6e;
 }
 
 h2 {
-    padding: 10px;
     color: black;
 }
 
