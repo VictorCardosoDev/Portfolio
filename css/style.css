@@ -24,11 +24,13 @@ div {
 }
 
 header#header {
-    background-color: rgba(112, 90, 90, 0.247);
+    background-color: rgba(110, 112, 90, 0.247);
+    padding: 10px;
 }
 
 section#aboutme {
     background-color: #ef77fa;
+    padding: 10px;
 }
 
 section#contact {
@@ -37,7 +39,6 @@ section#contact {
 
 #contact > h2 {
     text-align: center;
-    content: "kfnajksn";
     color: white;
 }
 
@@ -68,6 +69,14 @@ li {
 a {
     text-decoration: none;
     color: #db0f5a;
+}
+
+a.header {
+    color: white;
+    text-align: center;
+    border: solid 3px rgb(255, 0, 0);
+    padding: 5px;
+    background-color: black;
 }
 
 a.header:hover {
