@@ -23,6 +23,14 @@ div {
     
 }
 
+header#header {
+    background-color: rgba(112, 90, 90, 0.247);
+}
+
+section#aboutme {
+    background-color: #ef77fa;
+}
+
 section#contact {
     background-color: pink;
 }
