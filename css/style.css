@@ -24,10 +24,12 @@ div {
 }
 
 section#contact {
-    background-color: black;
+    background-color: pink;
 }
 
-section > h1 {
+#contact > h2 {
+    text-align: center;
+    content: "kfnajksn";
     color: white;
 }
 
@@ -38,6 +40,7 @@ h1 {
 }
 
 h2 {
+    padding: 10px;
     color: black;
 }
 
