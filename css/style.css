@@ -12,7 +12,7 @@ body {
 
 main {
     background-color: white;
-    border-radius: 10px 10px 0px 0px;
+    border-radius: 10px;
     box-shadow: 5px 5px 4px #321240;
     width: 1820px;
     padding: 10px;
@@ -23,6 +23,7 @@ main {
     background-color: rgba(110, 112, 90, 0.247);
     padding: 15px;
     text-align: center;
+    border-radius: 7px 7px 0px 0px;
 }
 
 #aboutme {
@@ -46,8 +47,12 @@ main {
 }
 
 #contact > nav {
-    margin-top: 10px;
+    margin-top: 30px;
     text-align: center;
+}
+
+#nav > a {
+    margin: 15px;
 }
 
 #project {
@@ -123,6 +128,7 @@ img.contatos:hover {
     text-align: left;
     background-color: #BF1B68;
     padding: 10px;
+    border-radius: 0px 0px 7px 7px;
 }
 
 #project > h2 {
