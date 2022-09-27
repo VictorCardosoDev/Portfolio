@@ -1,35 +1,31 @@
 @charset "UTF-8";
 
 * {
-    /*height: 100%;*/
     font-family: Arial, Helvetica, sans-serif;
-    background-attachment: fixed;
 }
 
 body {
+    background-attachment: fixed;
     background-image: linear-gradient(to bottom, #db0f5a, #BF1B68, black 108%);
+    padding: 0px;
 }
 
 main {
     background-color: white;
-    border-radius: 10px;
+    border-radius: 10px 10px 0px 0px;
     box-shadow: 5px 5px 4px #321240;
-    width: 600px;
+    width: 1820px;
     padding: 10px;
     margin: auto;
-}
+} 
 
-div {
-    
-}
-
-header#header {
+#header {
     background-color: rgba(110, 112, 90, 0.247);
     padding: 15px;
     text-align: center;
 }
 
-section#aboutme {
+#aboutme {
     background-color: #ef77fa;
     padding: 10px;
 }
@@ -38,17 +34,28 @@ section#aboutme {
     margin: 0px;
 }
 
-section#contact {
+#contact {
+    padding: 10px;
     background-color: pink;
 }
 
 #contact > h2 {
+    margin: 0px;
     text-align: center;
     color: white;
 }
 
 #contact > nav {
+    margin-top: 10px;
     text-align: center;
+}
+
+#project {
+    padding: 10px
+}
+
+#project > h2 {
+    margin: 0px;
 }
 
 h1 {    
@@ -110,4 +117,38 @@ img.contatos {
 
 img.contatos:hover {
     width: 45px;
+}
+
+#project {
+    text-align: left;
+    background-color: #BF1B68;
+    padding: 10px;
+}
+
+#project > h2 {
+    text-align: center;
+}
+
+div#android {
+    background-color: black;
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+    color: rgb(4, 73, 4);
+    border-radius: 10px;
+}
+
+#android:hover > p {
+    border-radius:  7px;
+    background-color: white;
+    padding: 5px;
+}
+
+footer > p {
+    text-align: center;
+    padding: 10px;
+    display: block;
+    background-color: black;
+    margin: 15px 0px 0px 0px;
+    color: white;
 }
