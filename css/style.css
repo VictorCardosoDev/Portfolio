@@ -1,160 +1,132 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700&family=Poppins:wght@100;400;500;700&family=Sriracha&display=swap');
+
+:root {
+    --destaques: #00D8F0;
+    --padrao: #0093A3;
+    --background: #004E57;
+    --back-projects: #004E57;
+}
+
 * {
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-body {
-    background-attachment: fixed;
-    background-image: linear-gradient(to bottom, #db0f5a, #BF1B68, black 108%);
+    font-family: 'Poppins', sans-serif;;
     padding: 0px;
-}
-
-main {
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 5px 5px 4px #321240;
-    width: 1820px;
-    padding: 10px;
-    margin: auto;
-} 
-
-#header {
-    background-color: rgba(110, 112, 90, 0.247);
-    padding: 15px;
-    text-align: center;
-    border-radius: 7px 7px 0px 0px;
-}
-
-#aboutme {
-    background-color: #ef77fa;
-    padding: 10px;
-}
-
-#aboutme > h1 {
     margin: 0px;
 }
 
-#contact {
-    padding: 10px;
-    background-color: pink;
-}
-
-#contact > h2 {
-    margin: 0px;
-    text-align: center;
-    color: white;
-}
-
-#contact > nav {
-    margin-top: 30px;
-    text-align: center;
-}
-
-#nav > a {
-    margin: 15px;
-}
-
-#project {
-    padding: 10px
-}
-
-#project > h2 {
-    margin: 0px;
-}
-
-h1 {    
-    background-color: black;
-    font: bold 1.5em Arial, helvetica, sans-serif;
-    color: white;
-    text-align: center;
-    text-shadow: 1px 1px 2px #80113a6e;
+h1 {
+    margin-bottom: 10px;
+    color: var(--destaques)
 }
 
 h2 {
-    color: black;
+    margin: 20px auto;
+}
+
+h3 {
+    color: var(--destaques);
 }
 
 p {
-    text-align: justify;
+    font: 700 normal 18px 'poppins';
 }
 
-ul {
-    
-}
-
-li {
-    display: inline-block;
-    list-style: none;
-}
-
-a {
-    text-decoration: none;
-    color: #db0f5a;
-}
-
-a.header {
-    color: white;
-    text-align: center;
-    border: solid 3px rgb(255, 0, 0);
-    padding: 5px;
+header {
     background-color: black;
+    color: var(--padrao);
+    padding: 10px;
 }
 
-a.header:hover {
+header > span {
+    float: right;
+    cursor: pointer;
+}
+
+header > a.logo-portfolio {
+    text-decoration: none;
+    color: var(--padrao);
+    font-size: 16px;
+}
+
+header > a.logo-portfolio:hover, header > nav#nav-profile li > a:hover {
+    text-decoration: underline;
     color: red;
-    /*font:normal normal 17px arial, helvetica, sans-serif;*/
-    font-size: 18px;
-    font-weight: bold;
 }
 
-a.header:active {
+header > nav {
+    text-align: right;
+    display: none;
+}
+
+header > nav > ul {
+    display: block;
+    list-style-type: none;
+    text-align: center;
+}
+
+nav#nav-profile li > a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 7px;
+}
+
+section {
+    background-color: var(--background);
+    color: black;
+    padding: 10px;
+    height: 100vh;
+}
+
+section:nth-child(even) {
+    background-color: rgba(0, 0, 0, 0.959);
+    color: var(--padrao);
+}
+
+section#profile > div > p {
+    margin-top: 10px;
+}
+
+section#profile > div > a {
+    color: var(--destaques);
+}
+
+section#profile > div#apresentacao {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+section#projects, #skills, #contacts {
+    text-align: center;
+}
+
+section#projects > div, #contacts > div {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: var(--back-projects);
     color: black;
 }
 
-a > img {
-    padding: 5px;
-}
-
-img.contatos {
-    width: 40px;
-}
-
-img.contatos:hover {
-    width: 45px;
-}
-
-#project {
-    text-align: left;
-    background-color: #BF1B68;
-    padding: 10px;
-    border-radius: 0px 0px 7px 7px;
-}
-
-#project > h2 {
-    text-align: center;
-}
-
-div#android {
+section#skills > div {
+    margin: 20px auto;
+    padding: 20px;
     background-color: black;
-    display: inline-block;
-    padding: 10px;
-    text-align: center;
-    color: rgb(4, 73, 4);
-    border-radius: 10px;
+    color: var(--padrao);
 }
 
-#android:hover > p {
-    border-radius:  7px;
-    background-color: white;
-    padding: 5px;
+footer {
+    text-align: center;
+    background-color: #004E57;
+    padding: 7px;
 }
 
 footer > p {
-    text-align: center;
-    padding: 10px;
-    display: block;
-    background-color: black;
-    margin: 15px 0px 0px 0px;
-    color: white;
+    margin: 0px;
+}
+
+footer > p > a {
+    color: var(--destaques);
 }
