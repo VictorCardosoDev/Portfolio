@@ -15,9 +15,9 @@
             menu
         </span>
 
-        <a href="#" target="_self" class="logo-portfolio">portfolio</a>
+        <a href="#" target="_self" class="logo_portfolio">portfolio</a>
 
-        <nav id="nav-profile">
+        <nav id="nav_profile">
             <ul>
                 <li><a href="#profile" target="_self">Inicio</a></li>
                 <li><a href="#projects" target="_self">Projetos</a></li>
@@ -107,7 +107,13 @@
 
 
     <script>
-        
+        function menu() {
+            if (nav_profile.style.display == 'none') {
+                nav_profile.style.display = 'block';
+            } else {
+                nav_profile.style.display = 'none';
+            }
+        }
     </script>
 </body>
 </html>
