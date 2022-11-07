@@ -1,7 +1,5 @@
 @charset "UTF-8";
 
-
-
 @media screen and (min-width: 768px) {
 
     header > span#burguer_menu {
@@ -18,7 +16,7 @@
     }
 
     section#projects > h2, #contacts > h2, #skills > h2 {
-        margin-bottom: 100px;
+        margin-bottom: 80px;
     }
 
     section#projects > div, section#contacts > div {
