@@ -17,20 +17,18 @@
         float: right;
     }
 
+    section#projects > h2, #contacts > h2, #skills > h2 {
+        margin-bottom: 100px;
+    }
+
     section#projects > div, section#contacts > div {
         width: 280px;
-        height: 100px;
+        height: 130px;
         display: inline-block;
         margin: 10px;
     }
 
-    section#skills > h2 {
-        margin-bottom: 300px;
-    }
-
     section#skills > div {
-        width: 120px;
-        height: 120px;
         display: inline-block;
     } 
 }
@@ -55,7 +53,7 @@
 
     section#projects > div {
         width: 350px;
-        height: 110px;
+        height: 130px;
     }
     
 }

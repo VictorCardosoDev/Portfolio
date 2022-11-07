@@ -78,6 +78,10 @@ section {
     height: 100vh;
 }
 
+section > div {
+    border-radius: 10px;
+}
+
 section:nth-child(even) {
     background-color: rgba(0, 0, 0, 0.959);
     color: var(--padrao);
@@ -100,19 +104,55 @@ section#projects, #skills, #contacts {
 }
 
 section#projects > div, #contacts > div {
-    margin: 20px 20px;
+    margin: 20px auto;
     padding: 20px;
     background-color: var(--back-itens);
     color: black;
     font-size: 15px;
 }
 
+section#projects > div {
+    width: 300px;
+}
+
+section#projects > div > p {
+    margin: 10px 0px 35px 0px;
+}
+
+section#projects > div > a {
+    background-color: var(--background);
+    color: var(--destaques);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+section#projects > div > a:hover {
+    color: red;
+}
+
+section#contacts > div {
+    width: 160px;
+    height: 120px;
+    margin: 40px auto;
+}
+
+section#contacts > div > p > a {
+    color: black;
+}
+
+section#contacts > div > p > a:hover {
+    color: var(--destaques);
+}
+
 section#skills > div {
-    margin: 20px 20px;
+    text-align: center;
+    margin: 50px auto;
     background-color: var(--back-itens);
     color: black;
     font-size: 15px;
     padding: 20px;
+    width: 120px;
+    height: 120px;
 }
 
 footer {
