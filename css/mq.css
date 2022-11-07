@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+
+
+@media screen and (min-width: 768px) {
+
+    header > span#burguer_menu {
+        display: none;
+    }
+    
+    header > nav#nav_profile {
+        display: inline;
+    }
+
+    header > nav#nav_profile > ul {
+        display: inline-flex;
+        float: right;
+    }
+
+    section#projects > div, section#contacts > div {
+        width: 280px;
+        height: 100px;
+        display: inline-block;
+        margin: 10px;
+    }
+
+    section#skills > h2 {
+        margin-bottom: 300px;
+    }
+
+    section#skills > div {
+        width: 120px;
+        height: 120px;
+        display: inline-block;
+    } 
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1930px) {
+
+    header > a.logo_portfolio {
+        font-size: 1.2em;
+    }
+
+    header > nav {
+        font-size: 1.2em;
+    }
+
+    section {
+        font-size: 1.2em;
+    }
+
+    section > div > h1, div > h2, div > h3, div > p {
+        font-size: 1.2em;
+    }
+
+    section#projects > div {
+        width: 350px;
+        height: 110px;
+    }
+    
+}
+
+@media screen and (min-width: 1930px) {
+
+    header > a.logo_portfolio {
+        font-size: 1.5em;
+    }
+
+    header > nav {
+        font-size: 1.5em;
+    }
+
+    section {
+        font-size: 1.5em;
+    }
+
+    section > div > h1, div > h2, div > h3, div > p {
+        font-size: 1.5em;
+    }
+
+    section#projects > div {
+        width: 400px;
+        height: 130px;
+    }
+}

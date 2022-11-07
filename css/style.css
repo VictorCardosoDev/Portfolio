@@ -38,7 +38,7 @@ header {
     padding: 10px;
 }
 
-header > span {
+header > span#burguer_menu {
     float: right;
     cursor: pointer;
 }
@@ -46,12 +46,11 @@ header > span {
 header > a.logo_portfolio {
     text-decoration: none;
     color: var(--padrao);
-    font-size: 16px;
 }
 
 header > a.logo_portfolio:hover, header > nav#nav_profile li > a:hover {
     text-decoration: underline;
-    color: red;
+    color: var(--destaques);
 }
 
 header > nav {
@@ -67,7 +66,7 @@ header > nav > ul {
 
 nav#nav_profile li > a {
     text-decoration: none;
-    color: white;
+    color: var(--padrao);
     display: block;
     padding: 7px;
 }
@@ -101,17 +100,19 @@ section#projects, #skills, #contacts {
 }
 
 section#projects > div, #contacts > div {
-    margin: 20px auto;
+    margin: 20px 20px;
     padding: 20px;
     background-color: var(--back-itens);
     color: black;
+    font-size: 15px;
 }
 
 section#skills > div {
-    margin: 20px auto;
-    padding: 20px;
+    margin: 20px 20px;
     background-color: var(--back-itens);
     color: black;
+    font-size: 15px;
+    padding: 20px;
 }
 
 footer {
@@ -127,4 +128,8 @@ footer > p {
 
 footer > p > a {
     color: var(--destaques);
+}
+
+footer > p > a:hover {
+    color: red;
 }
