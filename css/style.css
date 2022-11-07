@@ -3,37 +3,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700&family=Poppins:wght@100;400;500;700&family=Sriracha&display=swap');
 
 :root {
-    --destaques: #00D8F0;
-    --padrao: #0093A3;
-    --background: #004E57;
-    --back-projects: #004E57;
+    --destaques: #fff;
+    --padrao: #b3adad;
+    --background: #000;
+    --back-itens: #808080;
 }
 
 * {
-    font-family: 'Poppins', sans-serif;;
+    font-family: 'Poppins', sans-serif;
     padding: 0px;
     margin: 0px;
 }
 
+h1, h2, h3, strong {
+    color: var(--destaques);
+
+}
+
 h1 {
     margin-bottom: 10px;
-    color: var(--destaques)
 }
 
 h2 {
     margin: 20px auto;
 }
 
-h3 {
-    color: var(--destaques);
-}
-
 p {
-    font: 700 normal 18px 'poppins';
+    font: 700 normal 17px 'poppins';
 }
 
 header {
-    position: ;
     background-color: black;
     color: var(--padrao);
     padding: 10px;
@@ -75,7 +74,7 @@ nav#nav_profile li > a {
 
 section {
     background-color: var(--background);
-    color: black;
+    color: var(--padrao);
     padding: 10px;
     height: 100vh;
 }
@@ -87,10 +86,7 @@ section:nth-child(even) {
 
 section#profile > div > p {
     margin-top: 10px;
-}
-
-section#profile > div > a {
-    color: var(--destaques);
+    font-weight: normal;
 }
 
 section#profile > div#apresentacao {
@@ -107,25 +103,26 @@ section#projects, #skills, #contacts {
 section#projects > div, #contacts > div {
     margin: 20px auto;
     padding: 20px;
-    background-color: var(--back-projects);
+    background-color: var(--back-itens);
     color: black;
 }
 
 section#skills > div {
     margin: 20px auto;
     padding: 20px;
-    background-color: black;
-    color: var(--padrao);
+    background-color: var(--back-itens);
+    color: black;
 }
 
 footer {
     text-align: center;
-    background-color: #004E57;
+    background-color: var(--background);
     padding: 7px;
 }
 
 footer > p {
     margin: 0px;
+    color: var(--padrao);
 }
 
 footer > p > a {
