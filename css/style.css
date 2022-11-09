@@ -19,6 +19,14 @@ html, body {
     background-color: black;
 }
 
+body::-webkit-scrollbar {
+    background-color: black;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: white;
+}
+
 h1, h2, h3, strong {
     color: var(--destaques);
 
@@ -92,8 +100,9 @@ section:nth-child(even) {
 }
 
 section#profile > div > p {
-    margin-top: 10px;
+    margin-top: 20px;
     font-weight: normal;
+    line-height: 30px;
 }
 
 section#profile > div#apresentacao {
