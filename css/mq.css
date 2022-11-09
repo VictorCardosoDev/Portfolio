@@ -16,7 +16,7 @@
     }
 
     section#projects > h2, #contacts > h2, #skills > h2 {
-        margin-bottom: 80px;
+        margin-bottom: 300px;
     }
 
     section#projects > div, section#contacts > div {
@@ -45,7 +45,11 @@
         font-size: 1.2em;
     }
 
-    section > div > h1, div > h2, div > h3, div > p {
+    section > div > h1 {
+        font-size: 1.5em;
+    }
+
+    div > h2, div > h3, div > p {
         font-size: 1.2em;
     }
 
