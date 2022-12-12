@@ -29,7 +29,6 @@ body::-webkit-scrollbar-thumb {
 
 h1, h2, h3, strong {
     color: var(--destaques);
-
 }
 
 h1 {
@@ -42,6 +41,7 @@ h2 {
 
 p {
     font: 700 normal 17px 'poppins';
+    color: var(--padrao);
 }
 
 header {
@@ -81,4 +81,37 @@ nav#nav_profile li > a {
     color: var(--padrao);
     display: block;
     padding: 7px;
+}
+
+main {
+    margin: 15px;
+}
+
+section#profile > div#apresentacao {
+    margin: ;
+}
+
+section#profile > div#apresentacao > p {
+    color: var(--destaques);
+}
+
+section#projects > div > a {
+    text-decoration: none;
+    color: red;
+}
+
+section#projects > div > a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+}
+
+footer > p > a {
+    color: var(--destaques);
+}
+
+footer > p > a:hover {
+    color: red;
 }
